@@ -10,13 +10,15 @@
 
 ## 현재 버전
 
-**0.2.2 · 빌드 7** — 마이크 감지·강제 허용 수정본이며 버전과 빌드 번호는 유지했습니다.
+**0.2.2 · 빌드 7** — 알림 설정 바로가기·마이크 감지·강제 허용 수정본이며 버전과 빌드 번호는 유지했습니다.
 
 - Apple Silicon Mac, macOS 13 이상에서 실행합니다. 이번 배포에는 Intel용 실행 파일이 포함되지 않습니다.
 - 앱은 한국어 환경에서는 한국어, 그 외 환경에서는 영어로 표시됩니다.
 - 실제 알림 감지는 앱과 macOS 버전에 따라 추가 확인이 필요할 수 있습니다.
 
 ## 주요 기능
+
+- **알림 소리 설정 바로가기:** 규칙 화면·메뉴 막대·연결 및 상태에서 앱별 알림 설정과 시스템 알림음 음량 설정을 바로 엽니다.
 
 - **앱·내용별 규칙:** 앱 이름, 알림 제목과 본문에 포함되거나 제외될 키워드를 지정합니다.
 - **와일드카드:** `*`는 여러 글자, `?`는 한 글자에 대응합니다. 키워드를 AND 또는 OR로 결합할 수 있습니다.
@@ -32,7 +34,7 @@
 
 ## 설치
 
-1. [릴리스](https://github.com/leesop/SoriTong/releases/latest)에서 `SoriTong-0.2.2-7-microphone-override.zip`을 다운로드하고 압축을 풉니다.
+1. [릴리스](https://github.com/leesop/SoriTong/releases/latest)에서 `SoriTong-0.2.2-7-notification-settings.zip`을 다운로드하고 압축을 풉니다.
 2. **SoriTong.app**을 **응용 프로그램** 폴더로 옮깁니다. 이전 버전이 실행 중이면 먼저 종료하고 교체합니다.
 3. 앱을 실행하고 메뉴 막대 아이콘에서 설정을 엽니다.
 4. **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 소리통을 허용합니다.
@@ -56,8 +58,8 @@
 
 ## 파일 무결성 확인
 
-릴리스의 ZIP과 `SHA256SUMS-microphone-override.txt`를 같은 폴더에 내려받은 뒤 터미널에서 다음 명령으로 확인할 수 있습니다.
+릴리스의 ZIP과 `SHA256SUMS-notification-settings.txt`를 같은 폴더에 내려받은 뒤 터미널에서 다음 명령으로 확인할 수 있습니다.
 
 ```sh
-shasum -a 256 -c SHA256SUMS-microphone-override.txt
+shasum -a 256 -c SHA256SUMS-notification-settings.txt
 ```
